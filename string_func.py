@@ -1,0 +1,17 @@
+string1 = "Today we learnt about the in built data-structures and string functions"
+print(string1)
+print(string1.upper())
+print(string1.lower())
+print(string1.index("l"))
+print(string1.isalnum())
+print(string1.isalpha())
+print(string1.islower())
+print(string1.isupper())
+print(string1.count("a"))
+print(string1.capitalize())
+print(string1.replace("a","j"))
+print(string1.strip(" "))
+print(string1.swapcase())
+join_string = ",".join(string1)
+print(join_string)
+
