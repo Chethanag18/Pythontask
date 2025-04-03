@@ -1,0 +1,18 @@
+list1 = ["Banglore",12,7.8,78,32,12]
+print(list1)
+list1.append("Delhi") 
+print(list1)
+print(list1.copy())
+print(list1.count(12))
+print(list1.index(12))
+list1.remove(12)
+print(list1)
+list1.insert(2,"Fruits")
+print(list1)
+print(list1.pop())
+print(list1)
+list2 = [78,98,67]
+list1.extend(list2)
+print(list1)
+list1.clear()
+print(list1)
