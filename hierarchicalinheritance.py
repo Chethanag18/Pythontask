@@ -1,3 +1,4 @@
+# Hierarchical Inheritance : multiple child class inherits from the single parent class.
 class Animal:
     def eats(self):
         print("Animal eats food")
